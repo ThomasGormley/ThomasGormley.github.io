@@ -1,0 +1,84 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color : #1b1b1b;
+}
+
+.wrapper {
+    margin:1% 3%;
+}
+.heroimg {
+    background-image: url("/img/laptopherobg.png") ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:relative;
+    background-repeat: no-repeat;
+}
+.navbar-brand {
+    font-size : 12px;
+    letter-spacing : 2px;
+    font-weight : 600;
+    color: #fff;
+}
+.navbar-nav .nav-item .nav-link {
+    font-size : 12px;
+    letter-spacing : 1px;
+    font-weight : 400;
+    color: #fff;
+}
+.navbar-dark .navbar-brand:hover {
+    color: #008dc5;
+    transition: all 0.5s;
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #008dc5;
+    transition: all 0.5s;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")!important;
+}
+h1 { 
+    font-size:43px;
+}
+h3 {
+    font-size: 13px;
+    font-style: italic;
+    padding:1rem 0;
+}
+.highlight {
+    color: #008dc5;
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    .hometext {
+        margin-top: 10%;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    .hometext {
+        margin-top: 10%;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .hometext {
+        margin-top: 20rem;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .hometext {
+        margin-top: 20rem;
+    }
+}
